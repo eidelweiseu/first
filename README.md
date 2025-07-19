@@ -5,5 +5,3 @@ A multifunctional app containing:
 - 🎵 Playlist Recommendation
 - 📸 Photo Strip
 - ⏱️ Pomodoro Timer
-
-Made with ❤️ by Ewis.
