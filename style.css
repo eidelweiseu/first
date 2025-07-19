@@ -1,0 +1,56 @@
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  background-color: #fff8e1;
+  color: #5d4037;
+  margin: 0;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+#todo {
+  background-color: rgba(255, 248, 225, 0.95);
+  border: 2px dashed #ffcc80;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+#todo input {
+  background-color: #fffaf0;
+  border: 1px solid #ffcc80;
+  color: #5d4037;
+}
+
+#todo button {
+  background-color: #ffe082;
+  color: #5d4037;
+}
+
+#todo button:hover {
+  background-color: #ffd54f;
+}
+
+#todo-list li {
+  border-bottom: 1px dashed #ffe0b2;
+}
+
+#todo-list li.done {
+  text-decoration: line-through;
+  color: #a1887f;
+}
+
+/* --- Gambar Bebek di Pojok Hello --- */
+#bebekNgopi {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 80px;
+  z-index: 1;
+}
+
+/* --- Tombol checklist gambar bebek kecil --- */
+.check-duck {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  cursor: pointer;
+}
